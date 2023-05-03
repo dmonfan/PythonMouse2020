@@ -11,7 +11,7 @@ These animals scare each other in a big loop like so:
 
 M < C < D < B < L < E < M.
 
-Also, a smaller loop where, C < P < L, the python being scared by the lion and scaring the cat.
+Also there is a smaller loop where, C < P < L, the python being scared by the lion and scaring the cat.
 
 There are 6 levels so far, levels 0-5.
 
