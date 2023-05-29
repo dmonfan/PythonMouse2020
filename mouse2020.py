@@ -226,7 +226,7 @@ def place_pieces(start_coords, hole_coord, pieces, level_num):
 
 		letter_piece = pieces.pop()
 
-		print(f"Select coordiates for {letter_piece}")
+		print(f"Select coordinates for {letter_piece}")
 
 		place_occupied = True
 
@@ -485,7 +485,7 @@ M < C < D < B < L < E < M :: C < P < L
 Press q to quit and b to break out of loop
 """
 
-s = input("Press h for help or any key to continue: ")
+s = input("Press h for help or return to continue: ")
 
 if(s == 'h'):
 	print(help_message)
@@ -556,7 +556,7 @@ while(True):
 
 		# Next loop control
 
-		s = input("Press any key to continue: ")
+		s = input("Press return to continue: ")
 
 		if(s == 'b'):
 			break
@@ -640,5 +640,5 @@ while(True):
 			prev_coords = next_coords
 			break
 
-	if(input("Play again? (Press any key to play again or q to quit): ") == 'q'):
+	if(input("Play again? (Press return to play again or q to quit): ") == 'q'):
 		exit()
