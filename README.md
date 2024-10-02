@@ -1,5 +1,5 @@
 # PythonMouse2020
-A clone of CastleMouse 2000
+A rudimentary clone of CastleMouse 2000
 
 # About
 PythonMouse2020 is a terminal-based game where a player places animals on a grid in order to scare a mouse into a hole.
