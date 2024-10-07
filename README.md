@@ -13,7 +13,7 @@ M < C < D < B < L < E < M.
 
 Also there is a smaller loop where, C < P < L, the python being scared by the lion and scaring the cat.
 
-There are 6 levels so far, levels 0-5.
+There are 7 levels so far, levels 0-6.
 
 When stepping through a level, press 'q' to quit and 'b' to break out of loops.
 
