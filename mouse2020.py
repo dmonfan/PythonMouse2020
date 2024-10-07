@@ -452,6 +452,13 @@ level_05 = {'start_coords': [
 	'hole_coord': (4,0),
 	'pieces': ['D']}
 
+level_06 = {'start_coords': [
+	{'x': 2, 'y': 2, 'direction': STILL, 'animal': 'M'},
+	{'x': 1, 'y': 7, 'direction': STILL, 'animal': 'P'},
+	{'x': 2, 'y': 8, 'direction': STILL, 'animal': 'P'}],
+	'hole_coord': (7,7),
+	'pieces': ['C','C']}
+
 levels = []
 levels.append(level_00)
 levels.append(level_01)
@@ -459,13 +466,14 @@ levels.append(level_02)
 levels.append(level_03)
 levels.append(level_04)
 levels.append(level_05)
+levels.append(level_06)
 
 # Game Text
 
 print("PythonMouse 2020")
 
-help_message = """
-Goal: Get Mouse [M] into Hole [O] (Levels 0-5)
+help_message = f"""
+Goal: Get Mouse [M] into Hole [O] (Levels 0-{len(levels)-1})
 
 The animals:
 	[M]ouse
