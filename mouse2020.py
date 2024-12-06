@@ -1,4 +1,4 @@
-# PythonMouse 2020 (a CastleMouse 2000 python clone)
+# PythonMouse2020
 # Copyright (C) 2023 David Fan
 # Released under GPLv3
 
